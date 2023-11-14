@@ -1,5 +1,5 @@
 <section id="pricing">
-    <div class="container my-5">
+    <!--<div class="container my-5">
         <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
             <h1 class="display-5 fw-bold fs-2 lh-1 mb-3">Pricing</h1>
             <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -52,5 +52,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </section>
