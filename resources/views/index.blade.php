@@ -3,18 +3,6 @@
 <body>
     <header>
         <section>
-            <div class="container">
-                <nav class="navbar">
-                    <a class="navbar-brand" href="#">Sounder</a>
-                    <ul>
-                        <li class="active"><a href="#">Sounder Community</a></li>
-                        <li><a href="#">Artists</a></li>
-                        <li><a href="#how-it-works">How it works</a></li>
-                        <li><a href="#">Chat with us</a></li>
-                        <li class="btn"><a href="#">Signup for free</a></li>
-                    </ul>
-                </nav>
-            </div>
             <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6"></div>

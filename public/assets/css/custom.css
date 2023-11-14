@@ -20,7 +20,7 @@ header section h1, p{
     color: #fff;
 }
 
-section .container .navbar .navbar-brand {
+.container .navbar .navbar-brand {
     color: #fff;
     font-weight: 500;
 }
