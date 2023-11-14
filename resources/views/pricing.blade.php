@@ -1,1 +1,3 @@
-PRICING PAGE
+<section id="pricing">
+    
+</section>
