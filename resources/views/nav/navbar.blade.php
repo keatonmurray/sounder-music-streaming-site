@@ -1,6 +1,6 @@
 <div class="container">
     <nav class="navbar">
-        <a class="navbar-brand" href="#">Sounder</a>
+        <a class="navbar-brand" href="#" style="color:#fff;">Sounder</a>
         <ul>
             <li class="active"><a href="#">Sounder Community</a></li>
             <li><a href="#">Artists</a></li>

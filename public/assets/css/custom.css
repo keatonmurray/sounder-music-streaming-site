@@ -20,7 +20,7 @@ header section h1, p{
     color: #fff;
 }
 
-.container .navbar .navbar-brand {
+section .container .navbar .navbar-brand {
     color: #fff;
     font-weight: 500;
 }
@@ -84,7 +84,8 @@ nav ul li.btn:hover a {
 }
 
 .contact {
-    margin-top: 20px;
+    margin-top: 50px;
+    height: 100vh;
 }
 .row {
     padding: 5px;
@@ -94,15 +95,16 @@ nav ul li.btn:hover a {
     color: #fff;
 }
 
-#how-it-works  {
+#about-us {
     height: 65vh;
+    margin-top: 110px;
 }
 
-#how-it-works .row {
+#about-us .row {
     background: #fff;
 }
 
-#how-it-works p {
+#about-us p {
     color: #000;
 }
 
@@ -116,5 +118,47 @@ nav ul li.btn:hover a {
 }
 
 #pricing p {
+    color: #000;
+}
+
+#discover {
+
+    margin-top: 0;
+    height: auto;
+    background: #000;
+}
+
+#discover h1, #discover h2, #discover h1, #discover p {
+    
+    color: #fff;
+}
+
+#discover .container {
+    padding: 50px
+}
+
+#discover .container .row {
+    margin-top: 50px;
+}
+
+#features {
+    height: auto;
+    background: #fff;
+}
+
+#features .container {
+    padding-top: 15px;
+}
+
+#features p {
+    color:#000;
+}
+
+#signup {
+    height: 50vh;
+    margin-top: -50px;
+}
+
+#signup p {
     color: #000;
 }

@@ -16,4 +16,5 @@
     </head>
     @include('nav.navbar')
     @yield('content')
+    @include('footer')
 </html>
