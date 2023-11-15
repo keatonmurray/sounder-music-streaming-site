@@ -15,6 +15,3 @@ use App\Http\Controllers\PagesController;
 */
 
 Route::get('/', [PagesController::class, 'index']);
-//Route::get('/how-it-works', [PagesController::class, 'about']);
-Route::get('/contact-us', [PagesController::class, 'contact']);
-Route::get('/pricing', [PagesController::class, 'pricing']);
