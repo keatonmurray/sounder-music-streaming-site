@@ -13,6 +13,7 @@
         <script src="https://kit.fontawesome.com/5dfbc71075.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
         <title>{{config('app.name')}}</title>
+        @vite('resources/css/app.css', 'resources/js/app.js')
     </head>
     @include('nav.navbar')
     @yield('content')
