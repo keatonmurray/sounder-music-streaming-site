@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: URL('../images/bg-mirror.jpg');
+    background-image: URL('../../resources/images/bg-mirror.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     max-width:100%;

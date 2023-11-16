@@ -1,3 +1,7 @@
+@php
+  use Illuminate\Support\Facades\Vite;
+@endphp
+
 <section id="about-us">
   <div class="container my-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
@@ -10,7 +14,7 @@
           </div>
         </div>
         <div class="col-lg-4 offset-lg-1 mb-3 overflow-hidden">
-            <img class="md-3" src="{{asset('assets/images/cover.png')}}" width="250" height="320">
+            <img class="md-3" src="{{ Vite::asset('resources/images/cover.png') }}" width="250" height="320">
         </div>
       </div>
     </div>

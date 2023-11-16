@@ -1,3 +1,7 @@
+@php
+    use Illuminate\Support\Facades\Vite;    
+@endphp
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://kit.fontawesome.com/5dfbc71075.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
+        <link rel="stylesheet" href="{{ Vite::asset('resources/css/custom.css') }}">
         <title>{{config('app.name')}}</title>
         @vite('resources/css/app.css', 'resources/js/app.js')
     </head>
