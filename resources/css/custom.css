@@ -20,67 +20,67 @@ header section h1, p{
     color: #fff;
 }
 
-section .container .navbar .navbar-brand {
+.container .navbar {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.navbar .container .navbar-brand {
     color: #fff;
     font-weight: 500;
 }
 
-nav ul {
-    margin-top: 20px;
+nav .container .collapse .navbar-nav  {
+    margin-left: auto;
+    margin-top: 35px;
 }
 
-nav ul li {
-
-    list-style: none;
-    display: inline-block;
-    margin-left: 25px;
+nav .container .collapse .navbar-nav .nav-item {
+    padding: 12px;
 }
 
-nav ul li.active a {
-
-    border-bottom: 2px solid white;
-}
-
-nav ul li a {
+nav .container .collapse .navbar-nav .nav-item a {
 
     text-decoration: none;
     color: white;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     border-bottom: 2px solid transparent;
-    transition: .4s;
+    transition: .5s;
+    padding: auto;
 }
-
-nav ul li:not(:last-child) a:hover, nav ul li:not(:last-child) a:focus {
+nav .container .collapse ul li:not(:first-child) a:hover, nav .container .collapse ul li:not(:first-child) a:focus {
 
     border-bottom: 2px solid #fff;
 }
 
-nav ul li.active a {
+nav .container .collapse .navbar-nav .nav-item #active {
 
     border-bottom: 2px solid #fff;
 }
 
-nav ul li.btn a {
+.navbar .container .btn {
 
     background: #fff;;
     color: #000;
     border: 2px solid #fff;
     padding: 9px 20px;
-    height: 12px;
+    height: auto;
     border-radius: 30px;
     line-height: 1.4;
     font-size: 14px;
     font-weight: 500;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-top: 10px;
 }
 
-nav ul li.btn:hover a {
+.navbar .container .btn:hover {
 
     border: 1px solid #fff;
     color: black;
     background: #e7e7e7;
-    transition: .4s;
+    transition: .5s;
 }
 
 .contact {
