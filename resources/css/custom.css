@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #main {
     height: 100%;
     width: 100%;
@@ -29,23 +33,14 @@
     max-width: 100%;
 }
 
-h2 {
-    color: #fff;
-}
-
-header section h1, p{
-    color: #fff;
-}
-
 section .container .navbar {
     overflow: hidden;
     position: relative;
     width: 100%;
 }
 
-.navbar .container .navbar-brand {
-    color: #fff;
-    font-weight: 500;
+nav .container .collapse  {
+    width: 100%;
 }
 
 nav .container .collapse .navbar-nav  {
@@ -64,9 +59,10 @@ nav .container .collapse .navbar-nav .nav-item a {
     font-size: 15px;
     font-weight: 500;
     border-bottom: 2px solid transparent;
-    transition: .5s;
+    transition: .8s;
     padding: auto;
 }
+
 nav .container .collapse ul li:not(:first-child) a:hover, nav .container .collapse ul li:not(:first-child) a:focus {
 
     border-bottom: 2px solid #fff;
@@ -97,57 +93,18 @@ nav .container .collapse .navbar-nav .nav-item #active {
     border: 1px solid #fff;
     color: black;
     background: #e7e7e7;
-    transition: .5s;
-}
-
-.contact {
-    margin-top: 50px;
-    height: 100vh;
-}
-.row {
-    padding: 5px;
-}
-
-.row label, .contact h1 {
-    color: #fff;
-}
-
-#about-us {
-    height: 65vh;
-    margin-top: 110px;
+    transition: .8s;
 }
 
 #about-us .row {
     background: #fff;
 }
 
-#about-us p {
-    color: #000;
-}
-
-#pricing {
-    height: 100vh;
-}
-
-#pricing .card-body {
-    width: 350px;
-    height: 335px;
-}
-
-#pricing p {
-    color: #000;
-}
-
 #discover {
 
     margin-top: 0;
     height: auto;
-    background: #000;
-}
-
-#discover h1, #discover h2, #discover h1, #discover p {
-    
-    color: #fff;
+    background: repeating-radial-gradient(#111111,20%, #000);
 }
 
 #discover .container {
@@ -159,7 +116,7 @@ nav .container .collapse .navbar-nav .nav-item #active {
 }
 
 #features {
-    height: auto;
+    height: 100vh;
     background: #fff;
 }
 
@@ -167,15 +124,12 @@ nav .container .collapse .navbar-nav .nav-item #active {
     padding-top: 15px;
 }
 
-#features p {
-    color:#000;
+#features .container input {
+
+   height: 50px;
 }
 
 #signup {
     height: 50vh;
     margin-top: -50px;
-}
-
-#signup p {
-    color: #000;
 }
