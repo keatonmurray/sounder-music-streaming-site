@@ -133,3 +133,15 @@ nav .container .collapse .navbar-nav .nav-item #active {
     height: 50vh;
     margin-top: -50px;
 }
+
+#main .flex {
+    margin-top: -35px;
+}
+
+#main .flex .badge {
+    height: 35px; 
+    width: auto; 
+    padding: 10px; 
+    margin: 3px;
+    cursor: pointer;
+}
