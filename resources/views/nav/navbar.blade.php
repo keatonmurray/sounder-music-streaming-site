@@ -15,7 +15,7 @@
               <a class="nav-link" href="/artists">Artists</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/features">App Features</a>
+              <a class="nav-link" href="/app-features">App Features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
