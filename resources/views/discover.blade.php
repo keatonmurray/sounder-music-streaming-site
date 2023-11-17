@@ -1,26 +1,25 @@
 @php
   use Illuminate\Support\Facades\Vite;
 @endphp
-
-<section id="discover">
-    <div class="container">
-        <h1 class="display-5 fw-bold fs-2 lh-1 mb-3">Featured Artists</h1>
-        <div class="row text-center">
-            <div class="col-lg-4">
-                <img class="bd-placeholder-img rounded-circle" src="{{ Vite::asset('resources/images/artist1.jpg') }}" width="140" height="140">
-                <h2 class="fw-normal fs-6 mt-2">Jonathan Cooper</h2>
-                <p class="opacity-75">Miami, FL</p>
-            </div>
-            <div class="col-lg-4">
-                <img class="bd-placeholder-img rounded-circle" src="{{ Vite::asset('resources/images/artist2.jpg') }}" width="140" height="140">
-                <h2 class="fw-normal fs-6 mt-2">Tamara Jones</h2>
-                <p class="opacity-75">Long Island, NY</p>
-            </div>
-            <div class="col-lg-4">
-                <img class="bd-placeholder-img rounded-circle" src="{{ Vite::asset('resources/images/artist3.jpg') }}" width="140" height="140">
-                <h2 class="fw-normal fs-6 mt-2">John Smith</h2>
-                <p class="opacity-75">Tempe, AZ</p>
-            </div>
-        </div>
+@extends('main.layout')
+@section('content')
+<div class="container">
+    <div class="container my-5">
+      <h4 class="text-white">Discover</h4>
+      <form class="form-inline my-2 my-sm-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search for artists, band, or song title" aria-label="Search">
+      </form>
     </div>
+    <div class="flex gap-0 py-0 text-center" style="margin-top: -35px">
+      <span class="badge rounded-pill text-bg-primary" style="height: 35px; width: auto; padding: 10px; margin: 2px;">#pop</span>
+      <span class="badge rounded-pill text-bg-secondary" style="height: 35px; width: auto; padding: 10px; margin: 2px;">#punk</span>
+      <span class="badge rounded-pill text-bg-success" style="height: 35px; width: auto; padding: 10px; margin: 2px;">#heavymetal</span>
+      <span class="badge rounded-pill text-bg-danger" style="height: 35px; width: auto; padding: 10px; margin: 2px;">#hifi</span>
+      <span class="badge rounded-pill text-bg-warning" style="height: 35px; width: auto; padding: 10px; margin: 2px;">#hiphop</span>
+      <span class="badge rounded-pill text-bg-info" style="height: 35px; width: auto; padding: 10px; margin: 2px;">#lofi</span>
+      <span class="badge rounded-pill text-bg-light" style="height: 35px; width: auto; padding: 10px; margin: 2px;">#disco</span>
+      <span class="badge rounded-pill text-bg-dark" style="height: 35px; width: auto; padding: 10px;margin: 2px;">#indierock</span>
+    </div>
+  </div>
 </section>
+ @endsection
