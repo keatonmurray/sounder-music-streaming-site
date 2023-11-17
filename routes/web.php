@@ -16,3 +16,4 @@ use App\Http\Controllers\PagesController;
 
 Route::get('/', [PagesController::class, 'index']);
 Route::get('/artists', [PagesController::class, 'artists']);
+Route::get('/features', [PagesController::class, 'features']);

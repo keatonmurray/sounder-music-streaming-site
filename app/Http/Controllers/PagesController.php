@@ -11,6 +11,10 @@ class PagesController extends Controller
     }
 
     public function artists() {
-        return view('discover');
+        return view('artists');
+    }
+
+    public function features() {
+        return view('app-features');
     }
 }
