@@ -11,7 +11,7 @@ class PagesController extends Controller
     }
 
     public function artists() {
-        return view('artists');
+        return view('discover');
     }
 
     public function features() {

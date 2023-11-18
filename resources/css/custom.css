@@ -145,3 +145,23 @@ nav .container .collapse .navbar-nav .nav-item #active {
     margin: 3px;
     cursor: pointer;
 }
+
+#releases {
+    margin-top: 100px;
+}
+
+#releases .image-card .image-holder img {
+
+    height: 250px;
+    width: 250px;
+}
+
+.text-holder h6 {
+
+    margin-top: 10px;
+}
+
+.text-holder p {
+    margin-top: -8px;
+    font-size: 13px;
+}

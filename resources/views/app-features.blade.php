@@ -44,5 +44,5 @@
     </div>
   </div>
   </section>
-  @include('signup-link')
+  @include('components.signup-link')
 @endsection
